@@ -100,7 +100,7 @@ var small_horror_stats={
   }
 }
 
-//base objects
+//base objects <-- change this to anonymous instant func (and amend refs)?
 var baseObjects = (function () {
 
 var NPC = {
