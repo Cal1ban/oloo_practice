@@ -204,12 +204,14 @@ roomList = {}
 DeadMan = Object.create(PERSON,{
     status: {
       writable: true,
+      enumerable: true,
       configurable: true,
       value: 'dead'
     },
     inventory: {
       writable: true,
       configurable: true,
+      enumerable: true,
       value: 'some ham sandwiches'
     }});
 
@@ -232,6 +234,7 @@ Fox = Object.create(ANIMAL,{
 Player = Object.create(baseObjects.PLAYER,{
   status: {
     writable: true,
+    enumerable: true,
     configurable: true,
     value: 'alive'
   }}); Object.assign(Player,
